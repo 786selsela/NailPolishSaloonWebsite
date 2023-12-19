@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        #map {
+            height: 250px; /* Set the height of the map container */
+            width: 80%; /* Set the width of the map container */
+        }
+    </style>
+
+    
+    <style>
+        /* Internal CSS */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: hsl(0, 45%, 78%);
+            text-align: center;     
+        }
+        footer {
+        height: 30px; /* Adjust the height as needed */
+        background-color: hwb(0 22% 76% / 0.37); /* Background color for the footer */
+        color: #fff; /* Text color */
+        text-align: center;
+        padding: 19px; /* Padding inside the footer */
+        font-size: 14px;
+    }
+
+        h1 {
+            color: #f44336;
+
+        }
+
+        .manufacturer {
+            background-color: #FFFFFF;
+            padding: 10px;
+            margin: 10px;
+            border: 2px solid #333;
+            border-radius: 5px;
+            display: inline-block;
+        }
+
+        .manufacturer img {
+            width: 150px;
+        }
+    </style>
+    <link rel="stylesheet" href="stylesbeauty.css">
+   
+    <title>Welcome to BeautyPolar</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="BeautySingIn.html">Home</a></li>
+            <li><a href="About.html">About BeautyPolar</a></li>
+            <li><a href="Paying.html">Services</a></li>
+         <!--   <li><a href="contact">Contact</a></li>-->
+        </ul>
+    </nav>
+    <h1>Welcome to the  Precious Beauty-Nail-Polar</h1>
+    <p>Experience the breathtaking beauty of the polar regions:</p>
+    <p>Appointments Available</p>
+    <h3  style="color: red;">ONLINE APPOINTMENTS MUST BE MADE 7 DAYS IN ADVANCE<h4>
+
+        <div class="container">
+            
+            <form id="appointmentForm">
+                <div>
+                    <img src="https://images.pexels.com/photos/3736313/pexels-photo-3736313.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="Sample Image">
+                </div>
+                
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" required>
+    
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required>
+    
+                <label for="time">Time:</label>
+                <input type="time" id="time" name="time" required>
+               
+    
+                <button type="button" onclick="validateForm()">Submit</button>
+               
+            </form>
+        </div>
+    <script src="BeautySingIn.js"></script>
+
+    
+    <a href="Nail.html">Prices</a>
+    <br>
+    
+
+    
+    <a href="Paying.html">Online Pay</a>
+   
+    <link rel="stylesheet" type="text/css" href="stylesbeauty.css">
+
+    <!-- Include the Google Maps API script with your API key and callback -->
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyABVmlJkJy28uyW-PVbHvYmdHK88HtPTzE&callback=initMap"></script>
+    
+    <!-- Include your custom JavaScript file -->
+    <script src="stylesbeauty.css"></script>
+   
+   
+    <footer>
+   
+            <p>&copy;
+       
+        Nails by Precious Pearl
+            Houston, TX
+            ph: 713 965-4367
+           Precious_pearl@yahoo.com</p>
+    </footer>
+    <div id="map">GoogleMap</div>
+    <script src="BeautySingIn.js"></script>
+   
+</body>
+</html>

@@ -1,0 +1,261 @@
+/* External CSS for a Beautiful Page */
+
+/* Reset default margin and padding */
+
+
+/* Set a background color and font for the whole page */
+
+body {
+    background-image: url('https://images.pexels.com/photos/8566875/pexels-photo-8566875.jpeg?auto=compress&cs=tinysrgb&w=600');
+}
+
+
+
+/* Style the page header */
+header {
+    background-color: #007ACC;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the main content area */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Create a beautiful button */
+.button {
+    display: inline-block;
+    background-color: #FF5733;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #E23E57;
+}
+
+/* Style links in the content */
+a {
+    color: #007ACC;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Add a beautiful image border */
+img {
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+/* Create a stylish card */
+.card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Style a list with bullets */
+ul {
+    list-style-type: disc;
+}
+
+/* Add a subtle box shadow to buttons */
+.button, button {
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* Style a beautiful navigation bar */
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+/* Style navigation links */
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Change link color on hover */
+.navbar a:hover {
+    color: #cedbe4;
+}
+/* Reset default margin and padding for the whole page */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Style the header */
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #007ACC;
+    color: #ffffff;
+}
+/* Reset default margin and padding */
+body, h1, p, select {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the dropdown container */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Center the container */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Style the dropdown button and content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Show the dropdown content on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Change link color on hover */
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+
+
+/* Style the select element */
+select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Style the selected color text */
+/* Styling for the table */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    background-color: #f5f5f5;
+}
+
+.styled-table th, .styled-table td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.styled-table th {
+    background-color: #3498db;
+    color: #ffffff;
+    font-weight: bold;
+    .footer {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+}
+
+.styled-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Center text in the first column */
+.styled-table td:first-child {
+    text-align: center;
+}
+h1 {
+    color: hsl(4, 72%, 41%)(193, 193, 218);
+}
+
+p {
+    color: #730a4b;
+}
+.section3 {
+    background-image: url('https://images.pexels.com/photos/3944405/pexels-photo-3944405.jpeg?auto=compress&cs=tinysrgb&w=600'); /* Replace with your background image */
+    background-size: cover;
+    color: hsl(5, 63%, 51%);
+    padding: 40px;
+    text-align: center;
+}
+
+#map {
+    height: 400px;
+    width: 100%;
+}
+
+

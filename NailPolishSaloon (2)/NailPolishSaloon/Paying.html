@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesbeauty2.css">
+  
+    
+    <title>Debit or Credit Transaction</title>
+    
+    
+</head>
+<body>
+    <h1>Debit or Credit Transaction</h1>
+    <form id="transaction-form">
+        <label for="amount">Amount:</label>
+        <input type="number" id="amount" name="amount" placeholder="Enter amount" required>
+
+        <label for="transaction-type">Transaction Type:</label>
+        <select id="transaction-type" name="transaction-type" required>
+            <option value="debit">Debit</option>
+            <option value="credit">Credit</option>
+        </select>
+
+        <input type="submit" value="Submit" >
+    </form>
+
+    <div id="result" style="display: none;">
+        <h2>Transaction Result</h2>
+        <p id="result-message"></p>
+    </div>
+
+    <section class="section23">
+    </section>
+
+    <script>
+        document.getElementById("transaction-form").addEventListener("submit", function (e) {
+            e.preventDefault(); // Prevent the form from submitting the traditional way
+
+            // Get user input
+            const amount = parseFloat(document.getElementById("amount").value);
+            const transactionType = document.getElementById("transaction-type").value;
+
+            // Process the transaction
+            let resultMessage = "Transaction successful";
+            if (transactionType === "debit") {
+                resultMessage = `Debit transaction of $${amount}`;
+            } else if (transactionType === "credit") {
+                resultMessage = `Credit transaction of $${amount}`;
+            }
+
+            // Display the result
+            document.getElementById("result-message").textContent = resultMessage;
+            document.getElementById("result").style.display = "block";
+        });
+
+
+        
+       
+    </script>
+     
+
+   
+    </body>
+</html>
